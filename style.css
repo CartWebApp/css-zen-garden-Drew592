@@ -2,5 +2,82 @@
 #zen-intro{ 
     background-color: green;
     color: hotpink;
+    font-size: large;
 }
 
+.main.supporting  {
+background-color:grey;
+    color: blue;
+    font-size: large;
+}
+
+
+.sidebar {
+    background-color: dodgerblue;
+    color: rgb(193, 229, 240);
+    font-size: large;
+}
+
+:link{
+    color: rgb(193, 229, 240);;
+}
+
+h1 {
+border: 5px solid black;
+text-align: center;
+}
+.participation{ 
+    text-align: end;
+}
+
+p:first-child{
+    color: magenta;
+}
+
+p::first-letter{
+    font-weight: bold;
+}
+
+p::first-line{
+    text-decoration: underline;
+}
+
+p:only-child{
+    color: black;
+}
+
+li:only-child{
+    color: black;
+}
+
+b:only-child{
+    color: black;
+}
+
+.extra1 .extra2 {
+    color: black
+}
+
+a:visited{
+    color: magenta
+}
+
+::selection{
+    color: magenta
+}
+
+:root{
+    color: magenta
+}
+
+:not(p){
+    color: magenta
+}
+
+a:active{
+    color: magenta;
+}
+
+[role="banner"]{
+    background: dodgerblue;
+}
